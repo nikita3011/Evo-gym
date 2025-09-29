@@ -47,12 +47,24 @@ Open in your browser: [http://localhost:3000](http://localhost:3000/)
 ### 📂 Project Structure
 
 ```
-public/         # static assets (images, fonts, favicon, etc.)
-src/main.tsx    # App entry point
-src/App.tsx     # Root layout component
-src/scenes/     # Page sections (home, benefits, classes, contact, etc.)
-src/shared/     # Reusable UI components
-src/assets/     # Project-specific images and media files
+/ (repo root)
+├─ package.json              # scripts and dependencies
+├─ vite.config.ts            # Vite configuration
+├─ tailwind.config.js        # Tailwind config
+├─ index.html                # HTML entry
+├─ src/                      # source files (React + TypeScript)
+│  ├─ main.tsx               # React entry
+│  ├─ App.tsx                # App root and page layout
+│  ├─ index.css              # global styles (Tailwind imports)
+│  ├─ assets/                # images used by the site
+│  └─ scenes/                # main UI sections (navbar, home, benefits, ourClasses, contactUS, footer)
+│     ├─ navbar/
+│     ├─ home/
+│     ├─ benefits/
+│     ├─ ourClasses/
+│     └─ contactUS/
+└─ public/                   # public assets (served as-is)
+
 ```
 
 ***
