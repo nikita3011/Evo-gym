@@ -166,4 +166,4 @@ const Benefits = ({setSelectedPage}:Props) =>{
         </motion.div>
     </section>
 }
-export default Benefits
+export default Benefits;

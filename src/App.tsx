@@ -11,7 +11,6 @@ import { SelectedPage } from "./shared/types";
 
 function App() {
 const [selectedPage, setSelectedPage]= useState<SelectedPage>(SelectedPage.Home);
- 
  const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true);
 
 useEffect (() =>{

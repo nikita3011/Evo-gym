@@ -36,4 +36,4 @@ const Benefit = ({icon,title,description,setSelectedPage}: Props) =>{
               </motion.div>
     )
 }
-export default Benefit
+export default Benefit;
